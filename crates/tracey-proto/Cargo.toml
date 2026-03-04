@@ -1,7 +1,10 @@
 [package]
 name = "tracey-proto"
 version.workspace = true
-description = "Protocol definitions for tracey daemon RPC"
+description = "Protocol definitions for the tracey spec coverage daemon RPC"
+keywords = ["specification", "coverage", "traceability", "rpc", "tracey"]
+categories = ["development-tools"]
+readme = "../../README.md"
 edition.workspace = true
 license.workspace = true
 repository.workspace = true

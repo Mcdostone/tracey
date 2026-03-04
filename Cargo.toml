@@ -15,7 +15,7 @@ authors = ["Amos Wenger <amos@bearcove.eu>"]
 
 [workspace.dependencies]
 # Internal
-tracey-core = { path = "crates/tracey-core", version = "1.3.0" }
+tracey-core = { path = "crates/tracey-core", version = "1.3.0", default-features = false }
 tracey-api = { path = "crates/tracey-api", version = "1.3.0" }
 tracey-proto = { path = "crates/tracey-proto", version = "1.3.0" }
 tracey-config = { path = "crates/tracey-config", version = "1.3.0" }
